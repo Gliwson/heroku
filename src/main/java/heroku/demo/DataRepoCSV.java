@@ -26,6 +26,9 @@ public class DataRepoCSV {
 
     public void addPoint(PointDTO newPoint) {
         this.pointList.add(newPoint);
+
+
+        v1
         invoiced = getPointList().stream().filter(point -> point.getColorsName()
                 .equals("#000000")).collect(Collectors.toList());
 
