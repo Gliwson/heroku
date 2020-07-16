@@ -29,6 +29,7 @@ public class DataRepoCSV {
 
 
         v1
+                v2
         invoiced = getPointList().stream().filter(point -> point.getColorsName()
                 .equals("#000000")).collect(Collectors.toList());
 
